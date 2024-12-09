@@ -1,0 +1,75 @@
+plugins {
+    alias(libs.plugins.android.library)
+    id("maven-publish")
+}
+
+android {
+    namespace = "download.lib"
+    compileSdk = 34
+
+    defaultConfig {
+        minSdk = 24
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+            )
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+
+    // RxJava dependency
+    implementation("io.reactivex.rxjava3:rxjava:3.1.5")
+
+    // RxAndroid dependency
+    implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
+
+    implementation("io.github.junkfood02.youtubedl-android:library:0.17.2")
+    implementation("io.github.junkfood02.youtubedl-android:ffmpeg:0.17.2")
+    implementation("io.github.junkfood02.youtubedl-android:aria2c:0.17.2")
+
+    // Glide for thumbnails
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+    implementation("com.google.android.gms:play-services-ads:23.6.0")
+    implementation("com.google.android.gms:play-services-base:18.2.0")
+    implementation(libs.jackson.databind)
+    implementation(libs.jackson.annotations)
+    implementation(libs.commons.io)
+}
+
+
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+             //   from components.release
+
+                // Replace with your own groupId, artifactId, and version
+                groupId = 'com.mdloader'
+                artifactId = 'download-lib'
+                version = '1.0'
+
+                // Optional: include additional artifacts like sources or Javadocs
+               // artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+            }
+        }
+    }
+}
+

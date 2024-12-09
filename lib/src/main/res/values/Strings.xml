@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_invalid_url">Please enter a valid video URL</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">Select Download Format</string>
+    <string name="format_video">Video</string>
+    <string name="format_audio">Audio Only</string>
+    <string name="download">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
