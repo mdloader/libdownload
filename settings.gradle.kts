@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "downloadlib"
+rootProject.name = "libdownload"
 include(":app")
 include(":lib")
