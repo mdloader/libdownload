@@ -60,10 +60,6 @@ dependencies {
 }
 
 
-
-
-
-
 afterEvaluate {
     publishing {
         repositories {
@@ -71,16 +67,18 @@ afterEvaluate {
                 name = "libdownload"
                 url = uri("https://maven.pkg.github.com/mdloader/libdownload")
                 credentials {
-                //    username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
-                //    password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
+                    //    username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
+                    //    password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
                 }
             }
         }
         publications {
             mavenRelease(MavenPublication) {
+                groupId project.group
+
                 groupId = 'com.github.mdloader'
                 artifactId = 'lib'
-            //    version = android.defaultConfig.version
+                version = '1.0.4'
 
                 from components.release
             }
