@@ -62,7 +62,7 @@ afterEvaluate {
              //   from components.release
 
                 // Replace with your own groupId, artifactId, and version
-                groupId = 'com.mdloader'
+                groupId = 'com.github.mdloader'
                 artifactId = 'download-lib'
                 version = '1.0'
 
