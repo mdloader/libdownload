@@ -27,6 +27,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 }
 
 dependencies {
@@ -55,21 +61,29 @@ dependencies {
 
 
 
+
+
+
 afterEvaluate {
     publishing {
+        repositories {
+            maven {
+                name = "libdownload"
+                url = uri("https://maven.pkg.github.com/mdloader/libdownload")
+                credentials {
+                //    username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
+                //    password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
+                }
+            }
+        }
         publications {
-            release(MavenPublication) {
-             //   from components.release
+            mavenRelease(MavenPublication) {
+                groupId = 'com.github.mdloader'
+                artifactId = 'lib'
+            //    version = android.defaultConfig.version
 
-                // Replace with your own groupId, artifactId, and version
-                groupId = 'com.mdloader'
-                artifactId = 'download-lib'
-                version = '1.0'
-
-                // Optional: include additional artifacts like sources or Javadocs
-               // artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+                from components.release
             }
         }
     }
 }
-
