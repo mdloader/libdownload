@@ -59,7 +59,7 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-             //   from components.release
+                from components.release
 
                 // Replace with your own groupId, artifactId, and version
                 groupId = 'com.github.mdloader'
