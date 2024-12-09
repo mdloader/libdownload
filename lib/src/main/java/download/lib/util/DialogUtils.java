@@ -1,6 +1,6 @@
 package download.lib.util;
 
- import static download.lib.VideoDownloadManager.list;
+ import static download.lib.FacebookDownloader.list;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -12,7 +12,7 @@ import java.net.URISyntaxException;
 
 import download.lib.DownloadCallback;
 import download.lib.R;
-import download.lib.VideoDownloadManager;
+import download.lib.FacebookDownloader;
 
 public class DialogUtils {
 
@@ -38,12 +38,12 @@ public class DialogUtils {
         String finalUrl = url;
         AlertDialog dialog = new MaterialAlertDialogBuilder(context)
                 .setTitle(R.string.select_format)
-                .setSingleChoiceItems(formats, VideoDownloadManager.DownloadConfig.isVideoFormat ? 0 : 1, null)
+                .setSingleChoiceItems(formats, FacebookDownloader.DownloadConfig.isVideoFormat ? 0 : 1, null)
                 .setPositiveButton(R.string.download, (dialogInterface, which) -> {
                     AlertDialog alertDialog = (AlertDialog) dialogInterface;
                     int selectedPosition = alertDialog.getListView().getCheckedItemPosition();
                     boolean isVideoFormat = (selectedPosition == 0);
-                    VideoDownloadManager.DownloadConfig.isVideoFormat = isVideoFormat;
+                    FacebookDownloader.DownloadConfig.isVideoFormat = isVideoFormat;
 
                     // Call the callback method to handle the download
                     if (callback != null) {

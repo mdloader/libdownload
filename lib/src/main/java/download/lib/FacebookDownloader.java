@@ -10,7 +10,6 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.yausername.youtubedl_android.DownloadProgressCallback;
 import com.yausername.youtubedl_android.YoutubeDL;
 import com.yausername.youtubedl_android.YoutubeDLRequest;
@@ -32,7 +31,7 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable;
 import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.schedulers.Schedulers;
 
-public class VideoDownloadManager {
+public class FacebookDownloader {
     private static final String TAG = "VideoDownloadManager";
     private final Context context;
     private final ExecutorService executorService;
@@ -68,7 +67,7 @@ public class VideoDownloadManager {
     private static boolean updating = false;
     private static final CompositeDisposable compositeDisposable = new CompositeDisposable();
 
-    public VideoDownloadManager(Context context) {
+    public FacebookDownloader(Context context) {
         this.context = context;
         this.executorService = Executors.newSingleThreadExecutor();
         this.mainHandler = new Handler(Looper.getMainLooper());

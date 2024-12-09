@@ -15,6 +15,7 @@ import androidx.core.content.ContextCompat;
 import java.io.File;
 
 import download.lib.FacebookDownloader;
+import video.dldownloader.databinding.ActivityMainBinding;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -78,13 +79,16 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onSuccess(String filePath) {
+            public void onSuccess(String filePath, String thumbnailPath) {
                 binding.statusText.setText("Download completed: " + filePath);
                 resetUI();
                 Toast.makeText(MainActivity.this,
                         binding.audioRadio.isChecked() ? "Audio downloaded!" : "Video downloaded!",
                         Toast.LENGTH_SHORT).show();
+
             }
+
+
 
             @Override
             public void onError(String error) {
@@ -109,6 +113,11 @@ public class MainActivity extends AppCompatActivity {
             public void onResumed() {
                 binding.statusText.setText("Download resumed");
                 updatePauseResumeButton(false);
+            }
+
+            @Override
+            public void onFileExists(String filePath, FileExistsCallback fileExistsCallback) {
+
             }
         });
     }
