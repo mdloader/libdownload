@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">视频下载器</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">选择下载格式</string>
+    <string name="format_video">视频</string>
+    <string name="format_audio">仅音频</string>
+    <string name="download">下载</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">请输入有效的视频网址</string>
+    <string name="error_invalid_url_title">无效的网址</string>
+    <string name="error_no_internet">请检查您的网络连接并重试</string>
+    <string name="error_no_internet_title">无网络连接</string>
+    <string name="error_download_failed">下载失败</string>
+    <string name="error_retry_message">下载失败。您要重试吗？</string>
+    <string name="retry">重试</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">粘贴并下载</string>
+    <string name="status_download_completed">下载完成</string>
+    <string name="status_video_downloaded">视频已下载！</string>
+    <string name="status_audio_downloaded">音频已下载！</string>
+    <string name="status_download_cancelled">下载已取消</string>
+    <string name="status_download_paused">下载已暂停</string>
+    <string name="status_download_resumed">下载已恢复</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">文件已存在</string>
+    <string name="file_exists_message">文件已存在：\n%1$s\n\n您想怎么做？</string>
+    <string name="overwrite">覆盖</string>
+    <string name="skip">跳过</string>
+    
+    <!-- Button text -->
+    <string name="pause">暂停</string>
+    <string name="resume">恢复</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">分享方式</string>
+    <string name="delete_file">删除文件</string>
+    <string name="delete_confirmation">您确定要删除此文件吗？</string>
+    <string name="delete">删除</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">粘贴链接</string>
+    <string name="button_paste">粘贴</string>
+    <string name="button_download">下载</string>
+    <string name="text_download_progress">下载进度</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">下载内容</string>
+    <string name="text_no_downloads">暂无下载内容</string>
+    <string name="text_downloads_description">您下载的视频和音频\n将显示在这里</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">设置</string>
+    <string name="button_share_app">分享应用</string>
+    <string name="button_rate_app">评价应用</string>
+    <string name="button_more_apps">更多应用</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">分享</string>
+    <string name="button_delete">删除</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">视频下载器应用</string>
+    <string name="share_app_text">来看看这个很棒的视频下载器应用：https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

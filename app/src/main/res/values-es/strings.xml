@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Descargador de Videos</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">Seleccionar formato</string>
+    <string name="format_video">Video</string>
+    <string name="format_audio">Solo audio</string>
+    <string name="download">Descargar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">Por favor, ingrese una URL de video válida</string>
+    <string name="error_invalid_url_title">URL inválida</string>
+    <string name="error_no_internet">Por favor, verifique su conexión a Internet e intente nuevamente</string>
+    <string name="error_no_internet_title">Sin conexión a Internet</string>
+    <string name="error_download_failed">Error en la descarga</string>
+    <string name="error_retry_message">La descarga falló. ¿Desea intentar nuevamente?</string>
+    <string name="retry">Reintentar</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">Pegar y descargar</string>
+    <string name="status_download_completed">Descarga completada</string>
+    <string name="status_video_downloaded">¡Video descargado!</string>
+    <string name="status_audio_downloaded">¡Audio descargado!</string>
+    <string name="status_download_cancelled">Descarga cancelada</string>
+    <string name="status_download_paused">Descarga pausada</string>
+    <string name="status_download_resumed">Descarga reanudada</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">El archivo ya existe</string>
+    <string name="file_exists_message">El archivo ya existe:\n%1$s\n\n¿Qué desea hacer?</string>
+    <string name="overwrite">Sobrescribir</string>
+    <string name="skip">Omitir</string>
+    
+    <!-- Button text -->
+    <string name="pause">Pausar</string>
+    <string name="resume">Reanudar</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">Compartir vía</string>
+    <string name="delete_file">Eliminar archivo</string>
+    <string name="delete_confirmation">¿Está seguro de que desea eliminar este archivo?</string>
+    <string name="delete">Eliminar</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">Pegar enlace</string>
+    <string name="button_paste">Pegar</string>
+    <string name="button_download">Descargar</string>
+    <string name="text_download_progress">Progreso de descarga</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">Descargas</string>
+    <string name="text_no_downloads">No hay descargas aún</string>
+    <string name="text_downloads_description">Sus videos y audios descargados\naparecerán aquí</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">Configuración</string>
+    <string name="button_share_app">Compartir aplicación</string>
+    <string name="button_rate_app">Calificar aplicación</string>
+    <string name="button_more_apps">Más aplicaciones</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">Compartir</string>
+    <string name="button_delete">Eliminar</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">Aplicación Descargador de Videos</string>
+    <string name="share_app_text">Mira esta increíble aplicación para descargar videos: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

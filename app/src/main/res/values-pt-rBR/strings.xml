@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Baixador de Vídeos</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">Selecionar Formato</string>
+    <string name="format_video">Vídeo</string>
+    <string name="format_audio">Somente Áudio</string>
+    <string name="download">Baixar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">Por favor, digite uma URL de vídeo válida</string>
+    <string name="error_invalid_url_title">URL Inválida</string>
+    <string name="error_no_internet">Por favor, verifique sua conexão com a Internet e tente novamente</string>
+    <string name="error_no_internet_title">Sem Conexão com a Internet</string>
+    <string name="error_download_failed">Download Falhou</string>
+    <string name="error_retry_message">O download falhou. Quer tentar novamente?</string>
+    <string name="retry">Tentar Novamente</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">Colar e Baixar</string>
+    <string name="status_download_completed">Download Completo</string>
+    <string name="status_video_downloaded">Vídeo Baixado!</string>
+    <string name="status_audio_downloaded">Áudio Baixado!</string>
+    <string name="status_download_cancelled">Download Cancelado</string>
+    <string name="status_download_paused">Download Pausado</string>
+    <string name="status_download_resumed">Download Continuado</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">Arquivo já Existe</string>
+    <string name="file_exists_message">O arquivo já existe:\n%1$s\n\nO que você quer fazer?</string>
+    <string name="overwrite">Substituir</string>
+    <string name="skip">Pular</string>
+    
+    <!-- Button text -->
+    <string name="pause">Pausar</string>
+    <string name="resume">Continuar</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">Compartilhar via</string>
+    <string name="delete_file">Apagar Arquivo</string>
+    <string name="delete_confirmation">Tem certeza que quer apagar este arquivo?</string>
+    <string name="delete">Apagar</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">Cole o Link</string>
+    <string name="button_paste">Colar</string>
+    <string name="button_download">Baixar</string>
+    <string name="text_download_progress">Progresso do Download</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">Downloads</string>
+    <string name="text_no_downloads">Nenhum Download Ainda</string>
+    <string name="text_downloads_description">Seus vídeos e áudios baixados\nvão aparecer aqui</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">Configurações</string>
+    <string name="button_share_app">Compartilhar App</string>
+    <string name="button_rate_app">Avaliar App</string>
+    <string name="button_more_apps">Mais Apps</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">Compartilhar</string>
+    <string name="button_delete">Apagar</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">App Baixador de Vídeos</string>
+    <string name="share_app_text">Dá uma olhada nesse app incrível pra baixar vídeos: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

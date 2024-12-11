@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyMaterialButtonStyle" parent="Widget.Material3.Button">
+        <!-- Customize style if needed -->
+    </style>
+
+<!-- Theme without ActionBar -->
+
+</resources>
+

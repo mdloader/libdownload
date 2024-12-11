@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kipakuzi cha Video</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">Chagua Muundo</string>
+    <string name="format_video">Video</string>
+    <string name="format_audio">Sauti Pekee</string>
+    <string name="download">Pakua</string>
+    <string name="cancel">Ghairi</string>
+    <string name="ok">Sawa</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">Tafadhali weka URL halali ya video</string>
+    <string name="error_invalid_url_title">URL Batili</string>
+    <string name="error_no_internet">Tafadhali angalia muunganisho wako wa intaneti na ujaribu tena</string>
+    <string name="error_no_internet_title">Hakuna Muunganisho wa Intaneti</string>
+    <string name="error_download_failed">Upakuaji Umeshindikana</string>
+    <string name="error_retry_message">Upakuaji umeshindikana. Ungependa kujaribu tena?</string>
+    <string name="retry">Jaribu Tena</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">Bandika na Upakue</string>
+    <string name="status_download_completed">Upakuaji Umekamilika</string>
+    <string name="status_video_downloaded">Video Imepakiwa!</string>
+    <string name="status_audio_downloaded">Sauti Imepakiwa!</string>
+    <string name="status_download_cancelled">Upakuaji Umeghairiwa</string>
+    <string name="status_download_paused">Upakuaji Umesitishwa</string>
+    <string name="status_download_resumed">Upakuaji Umeendelea</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">Faili Tayari Ipo</string>
+    <string name="file_exists_message">Faili tayari ipo:\n%1$s\n\nUngependa kufanya nini?</string>
+    <string name="overwrite">Andika Juu</string>
+    <string name="skip">Ruka</string>
+    
+    <!-- Button text -->
+    <string name="pause">Sitisha</string>
+    <string name="resume">Endelea</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">Shiriki Kupitia</string>
+    <string name="delete_file">Futa Faili</string>
+    <string name="delete_confirmation">Una uhakika unataka kufuta faili hii?</string>
+    <string name="delete">Futa</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">Bandika Kiungo</string>
+    <string name="button_paste">Bandika</string>
+    <string name="button_download">Pakua</string>
+    <string name="text_download_progress">Maendeleo ya Upakuaji</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">Vipakuliwa</string>
+    <string name="text_no_downloads">Hakuna Vipakuliwa Bado</string>
+    <string name="text_downloads_description">Video na sauti zako zilizopakiwa\nzitaonekana hapa</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">Mipangilio</string>
+    <string name="button_share_app">Shiriki Programu</string>
+    <string name="button_rate_app">Kadiria Programu</string>
+    <string name="button_more_apps">Programu Zaidi</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">Shiriki</string>
+    <string name="button_delete">Futa</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">Programu ya Kupakua Video</string>
+    <string name="share_app_text">Angalia programu hii ya kupendeza ya kupakua video: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

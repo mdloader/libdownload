@@ -57,6 +57,10 @@ dependencies {
     implementation(libs.jackson.databind)
     implementation(libs.jackson.annotations)
     implementation(libs.commons.io)
+    implementation 'androidx.work:work-runtime:2.8.0'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'com.google.guava:guava:30.1-android'
 }
 
 
@@ -78,7 +82,7 @@ afterEvaluate {
 
                 groupId = 'com.github.mdloader'
                 artifactId = 'lib'
-                version = '1.0.8'
+                version = '1.0.9'
 
                 from components.release
             }

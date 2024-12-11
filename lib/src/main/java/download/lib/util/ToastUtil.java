@@ -7,8 +7,11 @@ import android.view.Gravity;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.yausername.youtubedl_android.YoutubeDL;
+
 public class ToastUtil {
 
+    public static YoutubeDL.UpdateChannel STABLE =YoutubeDL.UpdateChannel._STABLE;
     /**
      * Shows a custom toast with a specific color and rounded corners.
      * @param context - The application context.

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ویڈیو ڈاؤنلوڈر</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">فارمیٹ منتخب کریں</string>
+    <string name="format_video">ویڈیو</string>
+    <string name="format_audio">صرف آڈیو</string>
+    <string name="download">ڈاؤنلوڈ</string>
+    <string name="cancel">منسوخ</string>
+    <string name="ok">ٹھیک ہے</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">براہ کرم درست ویڈیو یو آر ایل درج کریں</string>
+    <string name="error_invalid_url_title">غلط یو آر ایل</string>
+    <string name="error_no_internet">براہ کرم اپنا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں</string>
+    <string name="error_no_internet_title">انٹرنیٹ کنکشن نہیں ہے</string>
+    <string name="error_download_failed">ڈاؤنلوڈ ناکام</string>
+    <string name="error_retry_message">ڈاؤنلوڈ ناکام ہوگیا۔ کیا آپ دوبارہ کوشش کرنا چاہتے ہیں؟</string>
+    <string name="retry">دوبارہ کوشش کریں</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">پیسٹ کریں اور ڈاؤنلوڈ کریں</string>
+    <string name="status_download_completed">ڈاؤنلوڈ مکمل</string>
+    <string name="status_video_downloaded">ویڈیو ڈاؤنلوڈ ہو گئی!</string>
+    <string name="status_audio_downloaded">آڈیو ڈاؤنلوڈ ہو گئی!</string>
+    <string name="status_download_cancelled">ڈاؤنلوڈ منسوخ کر دی گئی</string>
+    <string name="status_download_paused">ڈاؤنلوڈ روک دی گئی</string>
+    <string name="status_download_resumed">ڈاؤنلوڈ دوبارہ شروع</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">فائل پہلے سے موجود ہے</string>
+    <string name="file_exists_message">فائل پہلے سے موجود ہے:\n%1$s\n\nآپ کیا کرنا چاہتے ہیں؟</string>
+    <string name="overwrite">اوور رائٹ کریں</string>
+    <string name="skip">چھوڑ دیں</string>
+    
+    <!-- Button text -->
+    <string name="pause">روکیں</string>
+    <string name="resume">جاری رکھیں</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">کے ذریعے شیئر کریں</string>
+    <string name="delete_file">فائل حذف کریں</string>
+    <string name="delete_confirmation">کیا آپ واقعی اس فائل کو حذف کرنا چاہتے ہیں؟</string>
+    <string name="delete">حذف کریں</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">لنک پیسٹ کریں</string>
+    <string name="button_paste">پیسٹ کریں</string>
+    <string name="button_download">ڈاؤنلوڈ کریں</string>
+    <string name="text_download_progress">ڈاؤنلوڈ کی پیش رفت</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">ڈاؤنلوڈز</string>
+    <string name="text_no_downloads">ابھی تک کوئی ڈاؤنلوڈ نہیں</string>
+    <string name="text_downloads_description">آپ کی ڈاؤنلوڈ کی گئی ویڈیوز اور آڈیو\nیہاں دکھائی دیں گی</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">ترتیبات</string>
+    <string name="button_share_app">ایپ شیئر کریں</string>
+    <string name="button_rate_app">ایپ کی درجہ بندی کریں</string>
+    <string name="button_more_apps">مزید ایپس</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">شیئر کریں</string>
+    <string name="button_delete">حذف کریں</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">ویڈیو ڈاؤنلوڈر ایپ</string>
+    <string name="share_app_text">اس شاندار ویڈیو ڈاؤنلوڈر ایپ کو دیکھیں: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

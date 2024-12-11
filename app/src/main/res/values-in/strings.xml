@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pengunduh Video</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">Pilih Format</string>
+    <string name="format_video">Video</string>
+    <string name="format_audio">Audio Saja</string>
+    <string name="download">Unduh</string>
+    <string name="cancel">Batal</string>
+    <string name="ok">OK</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">Mohon masukkan URL video yang valid</string>
+    <string name="error_invalid_url_title">URL Tidak Valid</string>
+    <string name="error_no_internet">Silakan periksa koneksi internet Anda dan coba lagi</string>
+    <string name="error_no_internet_title">Tidak Ada Koneksi Internet</string>
+    <string name="error_download_failed">Unduhan Gagal</string>
+    <string name="error_retry_message">Unduhan gagal. Apakah Anda ingin mencoba lagi?</string>
+    <string name="retry">Coba Lagi</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">Tempel dan Unduh</string>
+    <string name="status_download_completed">Unduhan Selesai</string>
+    <string name="status_video_downloaded">Video Berhasil Diunduh!</string>
+    <string name="status_audio_downloaded">Audio Berhasil Diunduh!</string>
+    <string name="status_download_cancelled">Unduhan Dibatalkan</string>
+    <string name="status_download_paused">Unduhan Dijeda</string>
+    <string name="status_download_resumed">Unduhan Dilanjutkan</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">File Sudah Ada</string>
+    <string name="file_exists_message">File sudah ada:\n%1$s\n\nApa yang ingin Anda lakukan?</string>
+    <string name="overwrite">Timpa</string>
+    <string name="skip">Lewati</string>
+    
+    <!-- Button text -->
+    <string name="pause">Jeda</string>
+    <string name="resume">Lanjutkan</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">Bagikan melalui</string>
+    <string name="delete_file">Hapus File</string>
+    <string name="delete_confirmation">Apakah Anda yakin ingin menghapus file ini?</string>
+    <string name="delete">Hapus</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">Tempel Tautan</string>
+    <string name="button_paste">Tempel</string>
+    <string name="button_download">Unduh</string>
+    <string name="text_download_progress">Kemajuan Unduhan</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">Unduhan</string>
+    <string name="text_no_downloads">Belum Ada Unduhan</string>
+    <string name="text_downloads_description">Video dan audio yang Anda unduh\nakan muncul di sini</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">Pengaturan</string>
+    <string name="button_share_app">Bagikan Aplikasi</string>
+    <string name="button_rate_app">Nilai Aplikasi</string>
+    <string name="button_more_apps">Aplikasi Lainnya</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">Bagikan</string>
+    <string name="button_delete">Hapus</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">Aplikasi Pengunduh Video</string>
+    <string name="share_app_text">Coba aplikasi pengunduh video yang keren ini: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

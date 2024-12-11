@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">वीडियो डाउनलोडर</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">डाउनलोड फॉर्मेट चुनें</string>
+    <string name="format_video">वीडियो</string>
+    <string name="format_audio">केवल ऑडियो</string>
+    <string name="download">डाउनलोड</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="ok">ठीक है</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">कृपया वैध वीडियो URL दर्ज करें</string>
+    <string name="error_invalid_url_title">अमान्य URL</string>
+    <string name="error_no_internet">कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें</string>
+    <string name="error_no_internet_title">इंटरनेट कनेक्शन नहीं है</string>
+    <string name="error_download_failed">डाउनलोड विफल</string>
+    <string name="error_retry_message">डाउनलोड विफल हुआ। क्या आप पुनः प्रयास करना चाहेंगे?</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">पेस्ट करें और डाउनलोड करें</string>
+    <string name="status_download_completed">डाउनलोड पूरा हुआ</string>
+    <string name="status_video_downloaded">वीडियो डाउनलोड हो गया!</string>
+    <string name="status_audio_downloaded">ऑडियो डाउनलोड हो गया!</string>
+    <string name="status_download_cancelled">डाउनलोड रद्द किया गया</string>
+    <string name="status_download_paused">डाउनलोड रुका हुआ है</string>
+    <string name="status_download_resumed">डाउनलोड फिर से शुरू हुआ</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">फ़ाइल पहले से मौजूद है</string>
+    <string name="file_exists_message">फ़ाइल पहले से मौजूद है:\n%1$s\n\nआप क्या करना चाहेंगे?</string>
+    <string name="overwrite">ओवरराइट करें</string>
+    <string name="skip">छोड़ें</string>
+    
+    <!-- Button text -->
+    <string name="pause">रोकें</string>
+    <string name="resume">जारी रखें</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">के माध्यम से साझा करें</string>
+    <string name="delete_file">फ़ाइल हटाएं</string>
+    <string name="delete_confirmation">क्या आप वाकई इस फ़ाइल को हटाना चाहते हैं?</string>
+    <string name="delete">हटाएं</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">लिंक पेस्ट करें</string>
+    <string name="button_paste">पेस्ट करें</string>
+    <string name="button_download">डाउनलोड</string>
+    <string name="text_download_progress">डाउनलोड प्रगति</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">डाउनलोड</string>
+    <string name="text_no_downloads">अभी तक कोई डाउनलोड नहीं</string>
+    <string name="text_downloads_description">आपके डाउनलोड किए गए वीडियो और ऑडियो\nयहां दिखाई देंगे</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="button_share_app">ऐप शेयर करें</string>
+    <string name="button_rate_app">ऐप रेट करें</string>
+    <string name="button_more_apps">और ऐप्स</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">शेयर करें</string>
+    <string name="button_delete">हटाएं</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">वीडियो डाउनलोडर ऐप</string>
+    <string name="share_app_text">इस शानदार वीडियो डाउनलोडर ऐप को देखें: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

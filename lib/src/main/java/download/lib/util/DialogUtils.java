@@ -1,6 +1,5 @@
 package download.lib.util;
 
- import static download.lib.FacebookDownloader.list;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -9,10 +8,12 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.Arrays;
+import java.util.List;
 
 import download.lib.DownloadCallback;
+import download.lib.DownloadConfig;
 import download.lib.R;
-import download.lib.FacebookDownloader;
 
 public class DialogUtils {
 
@@ -23,7 +24,7 @@ public class DialogUtils {
             ToastUtil.showCustomToast(context, context.getString(R.string.error_invalid_url), false);
             return;
         }
-
+         final List<String> list = Arrays.asList("facebook", "fb", "instagram", "tiktok");
         boolean isIn = list.stream().anyMatch(url.toLowerCase()::contains);
         if (!isIn) {
             ToastUtil.showCustomToast(context, extractDomain(url).toUpperCase() + " Is Not Supported", false);
@@ -38,12 +39,12 @@ public class DialogUtils {
         String finalUrl = url;
         AlertDialog dialog = new MaterialAlertDialogBuilder(context)
                 .setTitle(R.string.select_format)
-                .setSingleChoiceItems(formats, FacebookDownloader.DownloadConfig.isVideoFormat ? 0 : 1, null)
+                .setSingleChoiceItems(formats,  DownloadConfig.isVideoFormat ? 0 : 1, null)
                 .setPositiveButton(R.string.download, (dialogInterface, which) -> {
                     AlertDialog alertDialog = (AlertDialog) dialogInterface;
                     int selectedPosition = alertDialog.getListView().getCheckedItemPosition();
                     boolean isVideoFormat = (selectedPosition == 0);
-                    FacebookDownloader.DownloadConfig.isVideoFormat = isVideoFormat;
+                    DownloadConfig.isVideoFormat = isVideoFormat;
 
                     // Call the callback method to handle the download
                     if (callback != null) {

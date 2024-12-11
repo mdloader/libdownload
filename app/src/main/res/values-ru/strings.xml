@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Загрузчик Видео</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">Выберите формат</string>
+    <string name="format_video">Видео</string>
+    <string name="format_audio">Только аудио</string>
+    <string name="download">Скачать</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">Пожалуйста, введите действительный URL видео</string>
+    <string name="error_invalid_url_title">Недействительный URL</string>
+    <string name="error_no_internet">Пожалуйста, проверьте подключение к Интернету и попробуйте снова</string>
+    <string name="error_no_internet_title">Нет подключения к Интернету</string>
+    <string name="error_download_failed">Ошибка загрузки</string>
+    <string name="error_retry_message">Загрузка не удалась. Хотите попробовать снова?</string>
+    <string name="retry">Повторить</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">Вставить и скачать</string>
+    <string name="status_download_completed">Загрузка завершена</string>
+    <string name="status_video_downloaded">Видео загружено!</string>
+    <string name="status_audio_downloaded">Аудио загружено!</string>
+    <string name="status_download_cancelled">Загрузка отменена</string>
+    <string name="status_download_paused">Загрузка приостановлена</string>
+    <string name="status_download_resumed">Загрузка возобновлена</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">Файл уже существует</string>
+    <string name="file_exists_message">Файл уже существует:\n%1$s\n\nЧто вы хотите сделать?</string>
+    <string name="overwrite">Перезаписать</string>
+    <string name="skip">Пропустить</string>
+    
+    <!-- Button text -->
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">Поделиться через</string>
+    <string name="delete_file">Удалить файл</string>
+    <string name="delete_confirmation">Вы уверены, что хотите удалить этот файл?</string>
+    <string name="delete">Удалить</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">Вставьте ссылку</string>
+    <string name="button_paste">Вставить</string>
+    <string name="button_download">Скачать</string>
+    <string name="text_download_progress">Прогресс загрузки</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">Загрузки</string>
+    <string name="text_no_downloads">Пока нет загрузок</string>
+    <string name="text_downloads_description">Ваши загруженные видео и аудио\nпоявятся здесь</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">Настройки</string>
+    <string name="button_share_app">Поделиться приложением</string>
+    <string name="button_rate_app">Оценить приложение</string>
+    <string name="button_more_apps">Другие приложения</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">Поделиться</string>
+    <string name="button_delete">Удалить</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">Приложение Загрузчик Видео</string>
+    <string name="share_app_text">Посмотрите это отличное приложение для загрузки видео: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>

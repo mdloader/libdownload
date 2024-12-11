@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تحميل الفيديو</string>
+
+    <!-- Dialog strings -->
+    <string name="select_format">اختر صيغة التحميل</string>
+    <string name="format_video">فيديو</string>
+    <string name="format_audio">صوت فقط</string>
+    <string name="download">تحميل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    
+    <!-- Error messages -->
+    <string name="error_invalid_url">يرجى إدخال رابط فيديو صالح</string>
+    <string name="error_invalid_url_title">رابط غير صالح</string>
+    <string name="error_no_internet">يرجى التحقق من اتصال الإنترنت والمحاولة مرة أخرى</string>
+    <string name="error_no_internet_title">لا يوجد اتصال بالإنترنت</string>
+    <string name="error_download_failed">فشل التحميل</string>
+    <string name="error_retry_message">فشل التحميل. هل تريد المحاولة مرة أخرى؟</string>
+    <string name="retry">إعادة المحاولة</string>
+    
+    <!-- Status messages -->
+    <string name="status_paste_download">لصق وتحميل</string>
+    <string name="status_download_completed">اكتمل التحميل</string>
+    <string name="status_video_downloaded">تم تحميل الفيديو!</string>
+    <string name="status_audio_downloaded">تم تحميل الصوت!</string>
+    <string name="status_download_cancelled">تم إلغاء التحميل</string>
+    <string name="status_download_paused">تم إيقاف التحميل مؤقتاً</string>
+    <string name="status_download_resumed">تم استئناف التحميل</string>
+    
+    <!-- File exists dialog -->
+    <string name="file_exists">الملف موجود مسبقاً</string>
+    <string name="file_exists_message">الملف موجود مسبقاً:\n%1$s\n\nماذا تريد أن تفعل؟</string>
+    <string name="overwrite">استبدال</string>
+    <string name="skip">تخطي</string>
+    
+    <!-- Button text -->
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="resume">استئناف</string>
+
+    <!-- Downloads Activity strings -->
+    <string name="share_via">مشاركة عبر</string>
+    <string name="delete_file">حذف الملف</string>
+    <string name="delete_confirmation">هل أنت متأكد من حذف هذا الملف؟</string>
+    <string name="delete">حذف</string>
+
+    <!-- Main Activity Layout -->
+    <string name="hint_paste_link">الصق الرابط</string>
+    <string name="button_paste">لصق</string>
+    <string name="button_download">تحميل</string>
+    <string name="text_download_progress">تقدم التحميل</string>
+    
+    <!-- Downloads Activity Layout -->
+    <string name="title_downloads">التحميلات</string>
+    <string name="text_no_downloads">لا توجد تحميلات حتى الآن</string>
+    <string name="text_downloads_description">ستظهر مقاطع الفيديو والصوت\nالتي قمت بتحميلها هنا</string>
+    
+    <!-- Settings Activity Layout -->
+    <string name="title_settings">الإعدادات</string>
+    <string name="button_share_app">مشاركة التطبيق</string>
+    <string name="button_rate_app">تقييم التطبيق</string>
+    <string name="button_more_apps">المزيد من التطبيقات</string>
+    
+    <!-- Item Download Layout -->
+    <string name="button_share">مشاركة</string>
+    <string name="button_delete">حذف</string>
+
+    <!-- Settings Activity strings -->
+    <string name="share_app_subject">تطبيق تحميل الفيديو</string>
+    <string name="share_app_text">تحقق من تطبيق تحميل الفيديو الرائع هذا: https://play.google.com/store/apps/details?id=%1$s</string>
+</resources>
